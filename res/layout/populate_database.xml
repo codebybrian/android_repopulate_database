@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+        >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample app to populate a database.  Make an app like this that populates you database."
+            />
+
+    <TextView
+            android:id="@+id/num_rows_inserted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:text="Extract the database from an emulator to a local file by typing at a terminal prompt:"
+
+            />
+
+    <TextView
+            android:id="@+id/extract_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="Then put the extracted database file in your real project's res/raw/ directory, and import it as bytes.  See the RestoreDatabase Activity."
+            />
+
+</LinearLayout>
+
